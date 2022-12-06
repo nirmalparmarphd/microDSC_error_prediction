@@ -24,7 +24,7 @@ Minimum Working Example
 
 ```
 
-**OUTPUT**
+
 The example output
 ```
 ----------------------------------------------------------------------
