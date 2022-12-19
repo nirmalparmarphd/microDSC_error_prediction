@@ -3,13 +3,14 @@
 # import module
 from modul import *
 
-# prediction of error
-# use: prediction = dsc_error_model(Reference mass(mg), Sample mass(mg))
-# NOTE: enter the sample and reference material mass in [mg] 
+# prediction of error/deviation in the heat capacity measurement
+# use: prediction = dsc_error_model(Reference amount(ml), Sample amount(ml))
+# NOTE: enter the sample and reference material amount in [ml] 
 
-# Example 1: Reference mass(mg) = 650, Sample mass(mg)= 600
-Reference_mass = 650
-Sample_mass = 600
+# Example 1: Reference amount(ml) = 0.8, Sample amount(ml)= 0.8
+# 0.8~ml [full], 0.4~ml [half full], 2.6~ml [one third full]
+Reference_amount = 0.8
+Sample_amount = 0.8
 
-error_pred = dsc_error_model(Reference_mass,Sample_mass)
+error_pred = dsc_error_model(Reference_amount,Sample_amount)
 
