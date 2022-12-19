@@ -24,7 +24,10 @@ Minimum Working Example
 
 ```
 
+<<<<<<< HEAD
 **OUTPUT**
+=======
+>>>>>>> b3e8a33f7cc79f614756798f9281b58cce1881d6
 
 The example output
 ```
