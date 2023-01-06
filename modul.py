@@ -13,7 +13,7 @@ information ='''
 
 * Predict the possible error that may arrise in your experiment with the sample and a reference material amount!
 
--->ML model uncertainty in prediction is 0.70 (%)<--'''
+-->The ML Model accuracy is 98.35 (%)<--'''
 
 print(information)
 print('-'*70)
