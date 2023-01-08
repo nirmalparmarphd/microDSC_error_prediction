@@ -1,7 +1,7 @@
 # microDSC_error_prediction
 ML model based on the Decision Tree Regressor algorithm to predict an error (deviation) in the isobaric heat capacity measurement (at 298~K) by microDSC that may arise due to an inappropriate amount of the sample or/and calibration standard material
 
->The error prediction accuracy of the ML model is '99.5 %'
+>The error prediction accuracy of the ML model over the test data is '97.84 %'
 
 # Direction
 Use python file 'error_pred_example.py' file to predict the error in heat capacity measurement
@@ -34,7 +34,7 @@ The example output
 ----------------------------------------------------------------------
 Reference volume [mg]:  0.8
 Sample volume [mg]:  0.8
-Heat capacity measurement deviation prediction (%):  [0.05166365]
+Heat capacity measurement deviation prediction (%):  [0.05]
 COMMENT(s):
             Sample and reference amount combination is appropriate.
             Consider 0.8~ml as standard amount to avoid any deviation in the measurement.
